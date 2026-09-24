@@ -8,5 +8,6 @@ wheels/
 .env
 qwenproxy
 qwenproxy/
+.env/
 # Virtual environments
 .venv
