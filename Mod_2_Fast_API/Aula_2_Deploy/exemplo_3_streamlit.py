@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 
 AGENT_ID = "agente_pdf"
-AGENT_BASE_URL = os.getenv("AGENT_BASE_URL", "http://localhost:10000")
+AGENT_BASE_URL = os.getenv("AGENT_BASE_URL", "https://agno-agent-rr34.onrender.com/")
 ENDPOINT = f"{AGENT_BASE_URL}/agents/{AGENT_ID}/runs"
 
 
